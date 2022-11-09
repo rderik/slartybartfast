@@ -9,5 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: server-proj
   source:
-    path: server
     repoURL: https://github.com/rderik/slartybartfast.git
+    path: server
+  syncPolicy:
+    automated: {}

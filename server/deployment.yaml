@@ -16,7 +16,7 @@ spec:
       serviceAccountName: my-service-account
       containers:
         - name: sserver
-          image: 862634182199.dkr.ecr.us-east-1.amazonaws.com/test-ecr:latest
+          image: 862634182199.dkr.ecr.us-east-1.amazonaws.com/test-ecr:latest-b
           imagePullPolicy: "Always"
           ports:
             - containerPort: 8080
