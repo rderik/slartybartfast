@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sserver
+  namespace: my-namespace
+spec:
+  selector:
+    matchLabels:
+      app: sserver
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: sserver
+    spec:
+      serviceAccountName: my-service-account
+      containers:
+        - name: sserver
+          image: 60672390668.dkr.ecr.us-east-1.amazonaws.com/test-ecr:latest
+          imagePullPolicy: "Always"
+          ports:
+            - containerPort: 8080

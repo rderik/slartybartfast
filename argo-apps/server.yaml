@@ -1,0 +1,13 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: server
+  namespace: argocd
+spec:
+  destination:
+    namespace: my-namespace
+    server: https://kubernetes.default.svc
+  project: server-proj
+  source:
+    path: guestbook
+    repoURL: https://github.com/rderik/slartibartfast.git
