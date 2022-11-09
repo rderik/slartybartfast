@@ -9,5 +9,5 @@ spec:
     server: https://kubernetes.default.svc
   project: server-proj
   source:
-    path: guestbook
-    repoURL: https://github.com/rderik/slartibartfast.git
+    path: server
+    repoURL: https://github.com/rderik/slartybartfast.git
