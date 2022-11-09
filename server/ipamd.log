@@ -1,0 +1,11 @@
+{"level":"info","ts":"2022-11-09T19:15:10.415Z","caller":"ipamd/ipamd.go:1422","msg":"Trying to add 192.168.26.243"}
+{"level":"info","ts":"2022-11-09T19:15:10.415Z","caller":"ipamd/ipamd.go:1546","msg":"Adding 192.168.26.243/32 to DS for eni-047e6e72bfef53401"}
+{"level":"info","ts":"2022-11-09T19:15:10.415Z","caller":"ipamd/ipamd.go:1546","msg":"IP already in DS"}
+{"level":"info","ts":"2022-11-09T19:15:10.415Z","caller":"ipamd/ipamd.go:1422","msg":"Trying to add 192.168.9.6"}
+{"level":"info","ts":"2022-11-09T19:15:10.415Z","caller":"ipamd/ipamd.go:1546","msg":"Adding 192.168.9.6/32 to DS for eni-047e6e72bfef53401"}
+{"level":"info","ts":"2022-11-09T19:15:10.415Z","caller":"ipamd/ipamd.go:1546","msg":"IP already in DS"}
+{"level":"debug","ts":"2022-11-09T19:15:10.415Z","caller":"ipamd/ipamd.go:653","msg":"Reconcile existing ENI eni-047e6e72bfef53401 IP prefixes"}
+{"level":"debug","ts":"2022-11-09T19:15:10.415Z","caller":"ipamd/ipamd.go:1354","msg":"Found prefix pool count 0 for eni eni-047e6e72bfef53401\n"}
+{"level":"debug","ts":"2022-11-09T19:15:10.415Z","caller":"ipamd/ipamd.go:653","msg":"Successfully Reconciled ENI/IP pool"}
+{"level":"debug","ts":"2022-11-09T19:15:10.415Z","caller":"ipamd/ipamd.go:653","msg":"IP/Prefix Address Pool stats: total: 15, assigned: 8, cooldownIPs: 0, total prefixes: 0"}
+^C
