@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: sserver
-          image: cr.io/google-samples/hello-app:2.0
+          image: nginx:latest
           imagePullPolicy: "Always"
           ports:
             - containerPort: 8080
